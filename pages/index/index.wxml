@@ -7,21 +7,19 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-<<<<<<< HEAD
   <view class="usermotto" class="block">
     <text class="user-motto">{{thename}}
   </text>
     <text hidden="{{flag < 90}}">
      出现
-=======
+    </text>
   <view class="usermotto">
     <text class="user-motto">阿伟死了！！
-  </text><text class="user-motto">test
-  
->>>>>>> master
+  </text>
+    <text class="user-motto">test
   </text>
   </view>
-</view>
+</view></view>
 <view>
     <block wx:for="{{items}}" wx:for-item="item" wx:key="index" >
         <view style="text-align:center;color:red;font-size:50rpx">{{index+1}}:{{item.name}}</view>
