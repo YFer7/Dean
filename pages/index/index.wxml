@@ -7,11 +7,18 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+<<<<<<< HEAD
   <view class="usermotto" class="block">
     <text class="user-motto">{{thename}}
   </text>
     <text hidden="{{flag < 90}}">
      出现
+=======
+  <view class="usermotto">
+    <text class="user-motto">阿伟死了！！
+  </text><text class="user-motto">test
+  
+>>>>>>> master
   </text>
   </view>
 </view>
