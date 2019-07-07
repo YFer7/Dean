@@ -4,9 +4,15 @@ const app = getApp()
 
 Page({
   data: {
+    flag: 50,
+    thename:"blue",
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
+    items: [
+      { name: "商品A" },
+      { name: "商品B" }
+    ],
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数
